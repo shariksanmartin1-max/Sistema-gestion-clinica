@@ -160,6 +160,12 @@
     <Compile Include="Formularios\FrmPacientes.Designer.cs">
       <DependentUpon>FrmPacientes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\FrmReportViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmReportViewer.Designer.cs">
+      <DependentUpon>FrmReportViewer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Infrastructure\DataSeeder.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

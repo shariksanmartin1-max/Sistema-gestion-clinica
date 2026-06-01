@@ -69,6 +69,74 @@ namespace SistemaClinica.Infrastructure
                 new Cita { Codigo = "C02", CedulaPaciente = "02020202", CodigoMedico = "M02", Fecha = System.DateTime.Today.AddDays(2), Estado = "Pendiente" }
             });
 
+            // Datos adicionales precargados
+            Especialidades.AddRange(new[] {
+                new Especialidad { Codigo = "E04", Nombre = "Neurologia" },
+                new Especialidad { Codigo = "E05", Nombre = "Dermatologia" },
+                new Especialidad { Codigo = "E06", Nombre = "Ortopedia" }
+            });
+
+            Medicos.AddRange(new[] {
+                new Medico { Codigo = "M03", Nombres = "Luis", Apellidos = "Martinez", Especialidad = "Neurologia", Telefono = "555-0303" },
+                new Medico { Codigo = "M04", Nombres = "Elena", Apellidos = "Santos", Especialidad = "Dermatologia", Telefono = "555-0404" },
+                new Medico { Codigo = "M05", Nombres = "Diego", Apellidos = "Rojas", Especialidad = "Ortopedia", Telefono = "555-0505" }
+            });
+
+            Pacientes.AddRange(new[] {
+                new Paciente { Cedula = "03030303", Nombres = "Ana Maria", Apellidos = "Vega", FechaNacimiento = new System.DateTime(1975,3,3), Sexo = "F", Direccion = "Av 3", Telefono = "300-3333", Correo = "anamaria@ej.com" },
+                new Paciente { Cedula = "04040404", Nombres = "Roberto", Apellidos = "Gomez", FechaNacimiento = new System.DateTime(1965,7,10), Sexo = "M", Direccion = "Av 4", Telefono = "300-4444", Correo = "roberto@ej.com" },
+                new Paciente { Cedula = "05050505", Nombres = "Lucia", Apellidos = "Fernandez", FechaNacimiento = new System.DateTime(2000,12,12), Sexo = "F", Direccion = "Calle 5", Telefono = "300-5555", Correo = "lucia@ej.com" }
+            });
+
+            Medicamentos.AddRange(new[] {
+                new Medicamento { Codigo = "MED03", Nombre = "Amoxicilina", Stock = 200, Precio = 3.5m },
+                new Medicamento { Codigo = "MED04", Nombre = "Aspirina", Stock = 150, Precio = 1.0m }
+            });
+
+            Inventarios.AddRange(new[] {
+                new Inventario { Codigo = "I03", Medicamento = "Amoxicilina", Existencia = 200 },
+                new Inventario { Codigo = "I04", Medicamento = "Aspirina", Existencia = 150 }
+            });
+
+            Laboratorios.AddRange(new[] {
+                new Laboratorio { Codigo = "L03", Nombre = "Laboratorio Sur" }
+            });
+
+            Examenes.AddRange(new[] {
+                new ExamenLaboratorio { Codigo = "EX03", Paciente = "03030303", TipoExamen = "Cultivo" },
+                new ExamenLaboratorio { Codigo = "EX04", Paciente = "04040404", TipoExamen = "Hemograma" },
+                new ExamenLaboratorio { Codigo = "EX05", Paciente = "05050505", TipoExamen = "PCR" },
+                new ExamenLaboratorio { Codigo = "EX06", Paciente = "01010101", TipoExamen = "Perfil Lipidico" }
+            });
+
+            Resultados.AddRange(new[] {
+                new ResultadoLaboratorio { Codigo = "R03", Resultado = "Positivo" },
+                new ResultadoLaboratorio { Codigo = "R04", Resultado = "Negativo" },
+                new ResultadoLaboratorio { Codigo = "R05", Resultado = "Normal" },
+                new ResultadoLaboratorio { Codigo = "R06", Resultado = "Atípico" }
+            });
+
+            Citas.AddRange(new[] {
+                new Cita { Codigo = "C03", CedulaPaciente = "03030303", CodigoMedico = "M03", Fecha = System.DateTime.Today.AddDays(3), Estado = "Confirmada" },
+                new Cita { Codigo = "C04", CedulaPaciente = "04040404", CodigoMedico = "M04", Fecha = System.DateTime.Today.AddDays(4), Estado = "Pendiente" },
+                new Cita { Codigo = "C05", CedulaPaciente = "05050505", CodigoMedico = "M05", Fecha = System.DateTime.Today.AddDays(5), Estado = "Pendiente" }
+            });
+
+            Hospitalizaciones.AddRange(new[] {
+                new Hospitalizacion { Codigo = "H03", Paciente = "03030303", Habitacion = "201" },
+                new Hospitalizacion { Codigo = "H04", Paciente = "04040404", Habitacion = "202" }
+            });
+
+            Facturas.AddRange(new[] {
+                new Factura { Numero = "F003", Paciente = "03030303", Fecha = System.DateTime.Today.AddDays(-2), Total = 75.0m },
+                new Factura { Numero = "F004", Paciente = "04040404", Fecha = System.DateTime.Today.AddDays(-1), Total = 120.0m },
+                new Factura { Numero = "F005", Paciente = "05050505", Fecha = System.DateTime.Today, Total = 45.0m }
+            });
+
+            Aseguradoras.AddRange(new[] {
+                new Aseguradora { Codigo = "AS03", Nombre = "Seguro C", Cobertura = 0.5m }
+            });
+
             Hospitalizaciones.AddRange(new[] {
                 new Hospitalizacion { Codigo = "H01", Paciente = "01010101", Habitacion = "101" },
                 new Hospitalizacion { Codigo = "H02", Paciente = "02020202", Habitacion = "102" }
