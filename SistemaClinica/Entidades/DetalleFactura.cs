@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace SistemaClinica.Entidades
 {
-    internal class DetalleFactura
+    public class DetalleFactura
     {
+        public string Codigo { get; set; }
+        public string Servicio { get; set; }
+        public decimal Valor { get; set; }
     }
 }

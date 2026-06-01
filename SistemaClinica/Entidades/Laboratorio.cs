@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace SistemaClinica.Entidades
 {
-    internal class Laboratorio
+    public class Laboratorio
     {
+        public string Codigo { get; set; }
+        public string Nombre { get; set; }
     }
 }

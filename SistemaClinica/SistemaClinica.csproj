@@ -46,7 +46,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controlador\TAmbulancia.cs" />
+    <Compile Include="Controlador\TAseguradora.cs" />
+    <Compile Include="Controlador\TCama.cs" />
+    <Compile Include="Controlador\TCirugia.cs" />
+    <Compile Include="Controlador\TCita.cs" />
+    <Compile Include="Controlador\TDepartamento.cs" />
+    <Compile Include="Controlador\TDetalleFactura.cs" />
+    <Compile Include="Controlador\TDetalleReceta.cs" />
+    <Compile Include="Controlador\TDiagnostico.cs" />
+    <Compile Include="Controlador\TEnfermero.cs" />
+    <Compile Include="Controlador\TEspecialidad.cs" />
+    <Compile Include="Controlador\TExamenLaboratorio.cs" />
+    <Compile Include="Controlador\TFactura.cs" />
+    <Compile Include="Controlador\THabitacion.cs" />
+    <Compile Include="Controlador\THistorialClinico.cs" />
+    <Compile Include="Controlador\THospitalizacion.cs" />
+    <Compile Include="Controlador\TInventario.cs" />
+    <Compile Include="Controlador\TLaboratorio.cs" />
+    <Compile Include="Controlador\TMedicamento.cs" />
+    <Compile Include="Controlador\TMedico.cs" />
     <Compile Include="Controlador\TPaciente.cs" />
+    <Compile Include="Controlador\TPago.cs" />
+    <Compile Include="Controlador\TReceta.cs" />
+    <Compile Include="Controlador\TResultadoLaboratorio.cs" />
+    <Compile Include="Controlador\TRol.cs" />
+    <Compile Include="Controlador\TSedeHospitalaria.cs" />
+    <Compile Include="Controlador\TServicioMedico.cs" />
+    <Compile Include="Controlador\TTrasladoPaciente.cs" />
+    <Compile Include="Controlador\TTratamiento.cs" />
+    <Compile Include="Controlador\TUsuario.cs" />
     <Compile Include="Entidades\Ambulancia.cs" />
     <Compile Include="Entidades\Aseguradora.cs" />
     <Compile Include="Entidades\Cama.cs" />

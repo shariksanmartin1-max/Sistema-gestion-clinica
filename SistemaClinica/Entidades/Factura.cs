@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace SistemaClinica.Entidades
 {
-    internal class Factura
+    public class Factura
     {
+        public string Numero { get; set; }
+        public string Paciente { get; set; }
+        public DateTime Fecha { get; set; }
+        public decimal Total { get; set; }
     }
 }
