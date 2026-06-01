@@ -106,14 +106,65 @@
     <Compile Include="Entidades\TrasladoPaciente.cs" />
     <Compile Include="Entidades\Tratamiento.cs" />
     <Compile Include="Entidades\Usuario.cs" />
+    <Compile Include="Formularios\FrmCitas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmCitas.Designer.cs">
+      <DependentUpon>FrmCitas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmFacturacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmFacturacion.Designer.cs">
+      <DependentUpon>FrmFacturacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmHospitalizaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmHospitalizaciones.Designer.cs">
+      <DependentUpon>FrmHospitalizaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmInventario.Designer.cs">
+      <DependentUpon>FrmInventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmLaboratorio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmLaboratorio.Designer.cs">
+      <DependentUpon>FrmLaboratorio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmMedicamentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmMedicamentos.Designer.cs">
+      <DependentUpon>FrmMedicamentos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmMedicos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmMedicos.Designer.cs">
+      <DependentUpon>FrmMedicos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\FrmMenu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Formularios\FrmMenu.Designer.cs">
       <DependentUpon>FrmMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\FrmPacientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmPacientes.Designer.cs">
+      <DependentUpon>FrmPacientes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Formularios\FrmMenu.resx">
+      <DependentUpon>FrmMenu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
