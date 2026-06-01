@@ -46,8 +46,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entidades\Ambulancia.cs" />
+    <Compile Include="Entidades\Aseguradora.cs" />
+    <Compile Include="Entidades\Cama.cs" />
+    <Compile Include="Entidades\Cirugia.cs" />
+    <Compile Include="Entidades\Cita.cs" />
+    <Compile Include="Entidades\Departamento.cs" />
+    <Compile Include="Entidades\DetalleFactura.cs" />
+    <Compile Include="Entidades\DetalleReceta.cs" />
+    <Compile Include="Entidades\Diagnostico.cs" />
+    <Compile Include="Entidades\Enfermero.cs" />
+    <Compile Include="Entidades\Especialidad.cs" />
+    <Compile Include="Entidades\ExamenLaboratorio.cs" />
+    <Compile Include="Entidades\Factura.cs" />
+    <Compile Include="Entidades\Habitacion.cs" />
+    <Compile Include="Entidades\HistorialClinico.cs" />
+    <Compile Include="Entidades\Hospitalizacion.cs" />
+    <Compile Include="Entidades\Inventario.cs" />
+    <Compile Include="Entidades\Laboratorio.cs" />
+    <Compile Include="Entidades\Medicamento.cs" />
     <Compile Include="Entidades\Medico.cs" />
     <Compile Include="Entidades\Paciente.cs" />
+    <Compile Include="Entidades\Pago.cs" />
+    <Compile Include="Entidades\Receta.cs" />
+    <Compile Include="Entidades\ResultadoLaboratorio.cs" />
+    <Compile Include="Entidades\Rol.cs" />
+    <Compile Include="Entidades\SedeHospitalaria.cs" />
+    <Compile Include="Entidades\ServicioMedico.cs" />
+    <Compile Include="Entidades\TrasladoPaciente.cs" />
+    <Compile Include="Entidades\Tratamiento.cs" />
+    <Compile Include="Entidades\Usuario.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
