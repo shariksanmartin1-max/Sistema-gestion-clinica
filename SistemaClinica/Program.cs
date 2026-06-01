@@ -16,6 +16,8 @@ namespace SistemaClinica
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            // Inicializar datos precargados
+            Infrastructure.DataSeeder.Seed();
             Application.Run(new FrmMenu());
         }
     }
